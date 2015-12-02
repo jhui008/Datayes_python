@@ -17,7 +17,7 @@ def  pinger(ip):
 	rtt_min=rtt[0]
 	rtt_avg=rtt[1]
 	rtt_max=rtt[2]
-	print "%s\t\t%s\t\t%s\t\t%s\t\t%s"%(ip,packet_loss,rtt_min,rtt_max,rtt_avg)
+	print ("%s\t\t%s\t\t%s\t\t%s\t\t%s"%(ip,packet_loss,rtt_min,rtt_max,rtt_avg))
 
 
 
